@@ -13,6 +13,7 @@
         <input name="Name" Placeholder="Enter Your name"><br>
         Address:
         <input name="Address" Placeholder="Enter Your address"><br>
+        Mobile No:
         <button>Submit</button>
 </form>
 <?php
