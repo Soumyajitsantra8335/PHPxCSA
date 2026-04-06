@@ -24,7 +24,9 @@ if($conn){
         $Roll_No=$_POST['id'];
         $Name=$_POST['Name'];
         $Address=$_POST['Address'];
+ HEAD
         $Mobile No=$_PHONE
+
         $a=$conn->query("insert into stu values('$Roll_No','$Name','$Address')");
         if($a){
             echo "Data inserted Successfully";
