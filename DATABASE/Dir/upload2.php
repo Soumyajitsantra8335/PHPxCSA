@@ -4,8 +4,7 @@ $conn=new mysqli("localhost","root","","image");
 if($_SERVER['REQUEST_METHOD']=="POST"){
     $filename=$_FILES['file']['name'];
     $filetmp=$_FILES['file']['tmp_name'];
-    $filepath="soumyajit_
-    data/".$filename;
+    $filepath="soumyajit_data/".$filename;
 
     move_uploaded_file($filetmp,$filepath);
     $a=$conn->query("insert into upload2(name,path) values ('$filename','$filepath')");
