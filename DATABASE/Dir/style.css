@@ -1,10 +1,10 @@
 body{
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #dbeafe, #ede9fe);
+    background: linear-gradient(135deg, #fedbde, #261475);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 900vh;
     margin: 0;
 }
 
@@ -35,7 +35,7 @@ label {
 .captcha-text {
     font-weight: bold;
     font-size: 1.5rem;
-    color: #2563eb;
+    color: #222429;
     background-color: #e0f2fe;
     padding: 0.4rem 0.8rem;
     border-radius: 6px;
@@ -74,11 +74,11 @@ button:hover {
 }
 
 .success {
-    color: #059669;
+    color: #619605;
     font-weight: 600;
 }
 
 .error {
-    color: #dc2626;
+    color: #2669dc;
     font-weight: 600;
 }
