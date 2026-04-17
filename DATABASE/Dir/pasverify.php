@@ -22,7 +22,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
    if($result->num_rows == 1){
     $_SESSION['Username']=$Username;
     header('location: loginform3.php');
-    header('location: CAPVERIFY.PHP');
+    //header('location: CAPVERIFY.PHP');
     exit();
    }else{
     echo "Invalid Username or password";
@@ -42,7 +42,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     <title>Document</title>
 </head>
 <body>
-    <div class="captcha"><?php echo $captarch ?></div>
+    
     <h2>Login Form</h2>
     <form method="post">
     Username:
